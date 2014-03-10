@@ -1,0 +1,31 @@
+{
+  "name": "konami-keyboard",
+  "version": "0.0.0",
+  "description": "Keyboard support for konami code",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "watchify ./test/konami-keyboard.js -o ./test/konami-keyboard.browser.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/MauriceButler/konami-keyboard.git"
+  },
+  "keywords": [
+    "konami",
+    "code",
+    "keyboard",
+    "seceret",
+    "easter",
+    "egg"
+  ],
+  "author": "Maurice Butler <maurice.butler@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MauriceButler/konami-keyboard/issues"
+  },
+  "homepage": "https://github.com/MauriceButler/konami-keyboard",
+  "dependencies": {
+    "keyboard-code": "0.0.2"
+  }
+}
