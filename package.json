@@ -27,5 +27,9 @@
   "homepage": "https://github.com/MauriceButler/konami-keyboard",
   "dependencies": {
     "keyboard-code": "0.0.2"
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {}
 }
